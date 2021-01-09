@@ -1,0 +1,299 @@
+*{
+    margin:0 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.higlander{
+   text-align: center;
+   color: hsl(0, 0%, 100%);
+   padding: 10px 3px;
+   margin-top: 40px;
+   position: relative;
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   text-shadow: 3px 2px #8b8a8a;
+   font-family: sans-serif;
+   display: block;
+  
+}
+.wrapper{
+    width: 1170px;
+    margin:auto;
+}
+.main{
+    background: url("/img/nyc-bridge.png");
+    background-size: cover;
+    height:135vh;
+    -webkit-background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.nav-area li a:hover{
+    background: #fff;
+    color:#333;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+.my-name{
+    position: absolute;
+    width: 600px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.my-name{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 24px;
+    color:#fff;
+}
+.footer-main{
+    float: left;
+    color: #fff;
+    bottom: 0;
+    width: 50%;
+    position: fixed;
+}
+
+
+
+
+/* contact us form*/
+
+.contact-form{
+    background: rgb(14, 14, 83);
+}
+.contact{
+    margin: 100px 15px;
+}
+.contact-title{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.contact title h1{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.form-container{
+    background: transparent;
+    max-width: 550px;
+    margin: auto;
+}
+form{
+    padding-bottom: 15px;
+    display: block;
+    width: 100%;
+}
+.form-name, .form-email{
+    color: gray;
+}
+
+form textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #444;
+    transition: 0.2s;
+    margin-top: 15px;
+    height: 150px;
+    padding: 10px 15px 10px 30px;
+}
+form input{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #444;
+    transition: 0.2s;
+    outline: none;
+    margin-top: 15px;
+    background-color: transparent;
+    position: relative;
+    padding: 10px 15px 10px 30px;
+    color: #fff;
+}
+form button{
+    border: 1px solid #444;
+    transition: 0.2s;
+    padding: 10px 30px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: tomato;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+}
+form button:hover{
+    background-color: red;
+}
+.button{
+    text-align: center;
+}
+.footer-contact-us{
+    float: left;
+    color: #fff;
+    bottom: 0;
+    width: 50%;
+    position: fixed;
+}
+
+
+/*======== about page ===========*/
+.about-me{
+    text-justify: auto;
+}
+.about-name{
+    background-color: grey;
+    padding: 10px;
+    text-align:center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    margin: 0 0;
+    color: white;
+    
+
+}
+.about-name h2{
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 20px;
+}
+h3{
+    color: slategray;
+}
+h4{
+    color: slategray;
+}
+.acappella{
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    width: 100%;
+}
+.department{
+    padding: 20px;
+    background: #ebebeb;
+    text-align: center;
+    width: 100%;
+}
+.employment{
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    width: 100%;
+}
+.thesis{
+    padding: 20px;
+    background: #ebebeb;
+    text-align: center;
+    width: 100%;
+}
+.luigji{
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    width: 100%;
+}
+.touro{
+    padding: 20px;
+    background: #ebebeb;
+    text-align: center;
+    width: 100%;
+}
+.cuny{
+    padding: 40px;
+    background: #fff;
+    text-align: center;
+    width: 100%;
+}
+.education{
+    padding: 10px;
+    background: #ebebeb;
+    text-align: center;
+    width: 100%;
+}
+.address a{
+    text-decoration: none;
+    color: grey;
+}
+.address{
+    position: sticky;
+    top : 10px;
+    padding-top: 120px;
+    padding-bottom: 10px;
+    background: white;
+    text-align: center;
+    width: 100%;
+}
+.decade{
+    padding: 20px;
+    background: #ebebeb;
+    text-align: center;
+    width: 100%;
+}
+.skills{
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    width: 100%;
+}
+.footer-about{
+    background: gray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+div.about{
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 20px;
+    width: 100%;
+}
+.about-home{
+    background-color: grey;
+    padding: 20px;
+    text-align:center;
+    width: 100%;
+    z-index: 1;
+    bottom: 30px;
+    margin: 0 0;
+    color: white;
+}
+.about-home a{
+    color: #fff;
+    text-decoration: none;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width: 768px){
+
+    
+}
