@@ -22,7 +22,7 @@
 .main{
     background: url("/img/nyc-bridge.png");
     background-size: cover;
-    height:135vh;
+    height:95vh;
     -webkit-background-size: cover;
     background-position: center;
     position: relative;
@@ -46,19 +46,27 @@
     background: #fff;
     color:#333;
 }
+.logo2 img{
+    margin-top: 10%;
+    display: block;
+    margin-left: 45%;
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+}
 .logo img{
     width: 100px;
     float: left;
     height: auto;
 }
 .my-name{
+
     position: absolute;
     width: 600px;
-    margin: 20% 30%;
+    margin-left: 32%;
     text-align: center;
 }
 .my-name{
-    text-align: center;
     text-transform: uppercase;
     font-family: sans-serif;
     font-size: 24px;
